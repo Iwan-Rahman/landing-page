@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+.info {
+}
+
+.info-content {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.sign-up {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
