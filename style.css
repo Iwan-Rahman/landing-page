@@ -10,27 +10,37 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-around;
 }
 
 .hero {
     display: flex;
+    justify-content: space-around;
 }
 
 .info {
+    text-align: center;
 }
 
 .info-content {
     display: flex;
+    justify-content: center;
 }
 
 .quote {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
