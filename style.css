@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 0 18%;
+    padding: 15px 18% 0 18%;
 }
 
 .links {
