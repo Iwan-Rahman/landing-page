@@ -33,7 +33,7 @@ body {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 30px 18% 30px 18%;
+    padding: 30px 18% 60px 18%;
     align-items: center;
 }
 
@@ -67,11 +67,23 @@ body {
 
 .info {
     text-align: center;
+    padding: 60px 18% 60px 18%;
 }
 
 .info-content {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+.info img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    border: 2px solid #3882F6;
 }
 
 .quote {
