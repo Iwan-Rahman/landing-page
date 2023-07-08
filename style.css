@@ -68,6 +68,8 @@ body {
 .info {
     text-align: center;
     padding: 60px 18% 60px 18%;
+    box-sizing: border-box;
+    height: 400px;
 }
 
 .info-content {
@@ -88,10 +90,28 @@ body {
 
 .quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px 18% 60px 18%;
+    box-sizing: border-box;
+    height: 400px;
 }
 
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding-right: 10%;
+}
+
+.quote div {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 24px;
+}
 .sign-up {
     display: flex;
     justify-content: center;
